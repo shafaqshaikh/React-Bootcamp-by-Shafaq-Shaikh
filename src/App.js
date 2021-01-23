@@ -9,6 +9,8 @@ import Counter from './Counter'
 import Parent from './Parent'
 import Conditional from './Conditional'
 import List from './List'
+import Input from './Input'
+import Form from './Form'
 function App() {
   return (
     <div className="App">
@@ -29,7 +31,9 @@ function App() {
       {/* <Event/> */}
       {/* <Parent/> */}
       {/* <Conditional/> */}
-      <List/>
+      {/* <List/> */}
+      {/* <Input/> */}
+      <Form/>
     </div>
   );
 }
