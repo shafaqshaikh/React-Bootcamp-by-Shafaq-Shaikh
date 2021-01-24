@@ -11,6 +11,7 @@ import Conditional from './Conditional'
 import List from './List'
 import Input from './Input'
 import Form from './Form'
+import HTTP from './HTTP'
 function App() {
   return (
     <div className="App">
@@ -33,7 +34,8 @@ function App() {
       {/* <Conditional/> */}
       {/* <List/> */}
       {/* <Input/> */}
-      <Form/>
+      {/* <Form/> */}
+      <HTTP/>
     </div>
   );
 }
